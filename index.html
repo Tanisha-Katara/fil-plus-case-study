@@ -64,6 +64,28 @@
   .hero-author { font-size: 0.95rem; color: #6b7280; }
   .hero-author strong { color: #111827; }
 
+  /* ─── Background Primer ─── */
+  .primer {
+    background: #f0f4ff;
+    border-top: 1px solid #dbe7ff;
+    border-bottom: 1px solid #dbe7ff;
+    padding: 40px 24px;
+  }
+  .primer-inner {
+    max-width: 740px; margin: 0 auto;
+    display: flex; gap: 20px; align-items: flex-start;
+  }
+  .primer-label {
+    flex-shrink: 0;
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; color: #2563eb;
+    background: #fff; border: 1px solid #c7d6ff;
+    padding: 4px 10px; border-radius: 4px; white-space: nowrap;
+    margin-top: 2px;
+  }
+  .primer-text { font-size: 0.93rem; color: #4b5563; line-height: 1.7; }
+  .primer-text strong { color: #111827; }
+
   /* ─── Section Commons ─── */
   section { padding: 96px 24px; }
   .section-inner { max-width: 900px; margin: 0 auto; }
@@ -242,6 +264,24 @@
   </p>
   <p class="hero-author"><strong>Tanisha Katara</strong> &mdash; Senior Governance Consultant, Filecoin</p>
 </section>
+
+<!-- ─── Background Primer ─── -->
+<div class="primer">
+  <div class="primer-inner">
+    <span class="primer-label">Background</span>
+    <p class="primer-text">
+      <strong>Filecoin</strong> is a decentralised storage network that pays storage providers
+      block rewards for reliably holding data over time. <strong>FIL+</strong> is Filecoin's
+      verified-storage program: it boosts block rewards for providers who store data that has
+      been vouched for as useful &mdash; originally public datasets, and increasingly enterprise
+      workloads. A set of <strong>badgeholders</strong> attests to the value of incoming data,
+      and a <strong>treasury</strong> funds subsidies that make verified deals economically
+      competitive. As the program grows, deciding <em>who</em> gets to attest, <em>how</em>
+      subsidies are prioritised, and <em>how much</em> goes to public-goods versus commercial
+      storage become the central governance questions.
+    </p>
+  </div>
+</div>
 
 <!-- ─── The Challenge ─── -->
 <section id="challenge">
